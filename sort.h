@@ -27,5 +27,6 @@ void print_list(const listint_t *list);
 void swap_nodes(listint_t **ptr1, listint_t **ptr2);
 void quicksort(int *array, unsigned int low, unsigned int high, size_t size);
 unsigned int partition(int *a, unsigned int low, unsigned int high, size_t s);
+void shell_sort(int *array, size_t size);
 
 #endif
